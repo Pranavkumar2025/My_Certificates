@@ -1,3 +1,16 @@
+//  --------------------------- Specialization Certificates ------------------
+const Specialization_data = [
+    {
+        id: 1,
+        abc_certificate:"Coursera Certificate",
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3BHSTXKSQHXE/CERTIFICATE_LANDING_PAGE~3BHSTXKSQHXE.jpeg",
+        title_name:"Programming Foundations with JavaScript, HTML and CSS 🔹(With Honors)🔹",
+        mylink: "https://coursera.org/share/6901d0ae161e4381aedec2d208eda1bb"
+    },
+
+];
+
+
 // ---------------------------- Machine Learning Certificates----------------------------
 const Mldata = [
     {
@@ -18,13 +31,13 @@ const Mldata = [
             
 ];
 // ------------------------------------- Web Development Certificate ------------------------
-const Webdata = [
+const FrontWebdata = [
     {
         id: 1,
         abc_certificate:"Coursera Certificate",
-        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~3BHSTXKSQHXE/CERTIFICATE_LANDING_PAGE~3BHSTXKSQHXE.jpeg",
-        title_name:"Programming Foundations with JavaScript, HTML and CSS",
-        mylink: "https://coursera.org/share/6901d0ae161e4381aedec2d208eda1bb"
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QCFRQ3DTVG8D/CERTIFICATE_LANDING_PAGE~QCFRQ3DTVG8D.jpeg",
+        title_name:"Introduction to Front-End Development",
+        mylink:"https://coursera.org/share/23b1f1486ce0c6197266119e876f3edf"
     },
     {
         id:2,
@@ -36,26 +49,32 @@ const Webdata = [
     {
         id: 3,
         abc_certificate:"Coursera Certificate",
-        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~WJN8YJSRRRDR/CERTIFICATE_LANDING_PAGE~WJN8YJSRRRDR.jpeg",
-        title_name:"HTML and CSS in depth",
-        mylink:"https://coursera.org/share/f9d0d09c42d3fc8df73f35fb98d7ae37"
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~8BC8GPUHEXXX/CERTIFICATE_LANDING_PAGE~8BC8GPUHEXXX.jpeg",
+        title_name:"Version Control",
+        mylink:"https://coursera.org/share/e38a562a2d3030f91b206812637d6bd5"
     },
     {
         id: 4,
         abc_certificate:"Coursera Certificate",
-        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QCFRQ3DTVG8D/CERTIFICATE_LANDING_PAGE~QCFRQ3DTVG8D.jpeg",
-        title_name:"Introduction to Front-End Development",
-        mylink:"https://coursera.org/share/23b1f1486ce0c6197266119e876f3edf"
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~WJN8YJSRRRDR/CERTIFICATE_LANDING_PAGE~WJN8YJSRRRDR.jpeg",
+        title_name:"HTML and CSS in depth",
+        mylink:"https://coursera.org/share/f9d0d09c42d3fc8df73f35fb98d7ae37"
     },
+    
+    
+    
+
+];
+const BackWebdata = [
     {
-        id: 5,
+        id: 1,
         abc_certificate:"Coursera Certificate",
         img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~8BC8GPUHEXXX/CERTIFICATE_LANDING_PAGE~8BC8GPUHEXXX.jpeg",
         title_name:"Version Control",
         mylink:"https://coursera.org/share/e38a562a2d3030f91b206812637d6bd5"
     },
 
-];
+]
 
 //--------------------------------------- Others Certificates -------------------------
 const Otherdata = [
@@ -65,4 +84,4 @@ const Otherdata = [
 
 export default Mldata;
 
-export {Webdata,Otherdata}
+export {FrontWebdata,BackWebdata,Otherdata,Specialization_data}
