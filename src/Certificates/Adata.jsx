@@ -60,9 +60,21 @@ const FrontWebdata = [
         title_name:"HTML and CSS in depth",
         mylink:"https://coursera.org/share/f9d0d09c42d3fc8df73f35fb98d7ae37"
     },
-    
-    
-    
+    {
+        id: 5,
+        abc_certificate:"Coursera Certificate",
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~QJL77MZ9DN2V/CERTIFICATE_LANDING_PAGE~QJL77MZ9DN2V.jpeg",
+        title_name:"React Basics",
+        mylink:"https://coursera.org/share/df6416864b3ad34fa168343e25a483e6"
+    },
+    {
+        id: 6,
+        abc_certificate:"Coursera Certificate",
+        img_src:"https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~7CSN8LXG85DD/CERTIFICATE_LANDING_PAGE~7CSN8LXG85DD.jpeg",
+        title_name:"Advanced React",
+        mylink:"https://coursera.org/share/df6416864b3ad34fa168343e25a483e6"
+    },
+     
 
 ];
 const BackWebdata = [
