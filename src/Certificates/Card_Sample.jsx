@@ -1,6 +1,6 @@
 import React from "react";
 
-function Acard(parse) {
+function Card_Sample(parse) {
     return (
       <>
         <div className="container">
@@ -17,4 +17,4 @@ function Acard(parse) {
     );
   }
 
-export default Acard;
+export default Card_Sample;

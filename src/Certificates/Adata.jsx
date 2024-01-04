@@ -94,6 +94,6 @@ const Otherdata = [
 
 ];
 
-export default Mldata;
+export default Mldata; 
 
 export {FrontWebdata,BackWebdata,Otherdata,Specialization_data}

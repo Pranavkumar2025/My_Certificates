@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDom from "react-dom";
 import "./index.css";
-import Certificates from "./Certificates/certificates";
+import Certificates from "./Certificates";
 import { StrictMode } from "react";
 
 ReactDom.render(
