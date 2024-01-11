@@ -4,7 +4,7 @@ import Mldata from "./Adata";
 
 const ML_Certificates = ()=>{
     return(
-        <div >
+        <div id="ML_Certificate" >
             <h1 className="c_txt"> 🥇 MACHINE LEARNING CERTIFICATES 🥇</h1>
             <div className="certificates_container">
             {Mldata.map(function(val){

@@ -4,7 +4,7 @@ import { Specialization_data } from "./Adata";
 
 const Specialization_Certificates = ()=>{
     return(
-        <div >
+        <div id="Specialization">
             <h1 className="M_txt"> 🥇  🌴SPECILIZATIONs CERTIFICATES🌴  🥇</h1>
             <div className="certificates_container">
             {Specialization_data.map(function(val){

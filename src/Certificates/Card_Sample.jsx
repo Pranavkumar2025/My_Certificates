@@ -10,7 +10,7 @@ function Card_Sample(parse) {
           />
           <h3 className="describ">{parse.abc_certificate}</h3>
           <h2 className="title">{parse.title_name}</h2>
-          <a href={parse.mylink} target="blank"><button id="btn">Visit Link 🔗</button></a>
+          <a href={parse.mylink} target="blank"><button id="btn">View Certificate 🔗</button></a>
   
         </div>
       </>
