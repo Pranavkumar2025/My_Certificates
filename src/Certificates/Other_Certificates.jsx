@@ -7,7 +7,7 @@ const Other_Certificates = ()=>{
         <div id="Other">
             <h1 className="c_txt">🥇 OTHERs CERTIFICATES 🥇</h1>
         <div className="certificates_container">
-            <h1 style={{color:"white"}}>Comming Soon.....😈</h1>
+            <h1 style={{color:"white"}}></h1>
         {Otherdata.map(function(val){
             return(
                 <Card_Sample

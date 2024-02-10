@@ -85,12 +85,47 @@ const BackWebdata = [
         title_name:"Version Control",
         mylink:"https://coursera.org/share/e38a562a2d3030f91b206812637d6bd5"
     },
+    
 
 ]
 
 //--------------------------------------- Others Certificates -------------------------
 const Otherdata = [
-
+    {
+        id: 1,
+        abc_certificate:"Udemy Certificate",
+        img_src:"https://udemy-certificate.s3.amazonaws.com/image/UC-87efd73e-dc63-421d-bafa-3c93e8b980e4.jpg?v=1698023342000",
+        title_name:"CSS, JavaScript And Python Complete Course",
+        mylink:"https://www.udemy.com/certificate/UC-87efd73e-dc63-421d-bafa-3c93e8b980e4/"
+    },
+    {
+        id: 2,
+        abc_certificate:"Udemy Certificate",
+        img_src:"https://udemy-certificate.s3.amazonaws.com/image/UC-698e602a-cb21-4c80-93ed-ae54bf13d4b1.jpg?v=1698922161000",
+        title_name:"Git for Beginners",
+        mylink:"https://www.udemy.com/certificate/UC-698e602a-cb21-4c80-93ed-ae54bf13d4b1/"
+    },
+    {
+        id: 3,
+        abc_certificate:"Udemy Certificate",
+        img_src:"https://udemy-certificate.s3.amazonaws.com/image/UC-4739285a-0c9b-4d70-9116-b7ef18ef778f.jpg?v=1698022356000",
+        title_name:"Learn JavaScript - For Beginners",
+        mylink:"https://www.udemy.com/certificate/UC-4739285a-0c9b-4d70-9116-b7ef18ef778f/"
+    },
+    {
+        id: 4,
+        abc_certificate:"Udemy Certificate",
+        img_src:"https://udemy-certificate.s3.amazonaws.com/image/UC-cb7efcf7-491a-4950-91d2-4c0f9b74dae7.jpg?v=1698420111000",
+        title_name:"Linux Terminal for beginners",
+        mylink:"https://www.udemy.com/certificate/UC-cb7efcf7-491a-4950-91d2-4c0f9b74dae7/"
+    },
+    {
+        id: 5,
+        abc_certificate:"Udemy Certificate",
+        img_src:"https://udemy-certificate.s3.amazonaws.com/image/UC-64b73ca4-74d2-4b65-9011-bba06cada862.jpg?v=1699148826000",
+        title_name:"Logistic Regression & Supervised Machine Learning in Python",
+        mylink:"https://www.udemy.com/certificate/UC-64b73ca4-74d2-4b65-9011-bba06cada862/"
+    },
 
 ];
 
