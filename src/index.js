@@ -1,16 +1,13 @@
+// index.js
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 import "./index.css";
-import Certificates from "./Certificates";
+import App from "./App";
 import { StrictMode } from "react";
 
-ReactDom.render(
+ReactDOM.render(
   <StrictMode>
-    <div className="Main_Container">
-        <Certificates/>
-    </div>
-  
-  </StrictMode>
-  ,
+    <App />
+  </StrictMode>,
   document.getElementById("root")
 );
