@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Card_Sample from "./Card_Sample";
-import { Specialization_data } from "./Adata";
+import CardSample from "./Card_Sample";
+import { Specializationdata } from "./Adata";
 
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
@@ -55,8 +55,8 @@ const Specialization_Certificates = () => {
         whileInView="show"
         viewport={{ once: true }}
       >
-        {Specialization_data.map((val) => (
-          <Card_Sample
+        {Specializationdata.map((val) => (
+          <CardSample
             key={val.id}
             abc_certificate={val.abc_certificate}
             img_src={val.img_src}

@@ -1,5 +1,5 @@
 //  --------------------------- Specialization Certificates ------------------
-const Specialization_data = [
+const Specializationdata = [
     {
         id: 1,
         abc_certificate:"Coursera Certificate",
@@ -131,4 +131,4 @@ const Otherdata = [
 
 export default Mldata; 
 
-export {FrontWebdata,BackWebdata,Otherdata,Specialization_data}
+export {FrontWebdata,BackWebdata,Otherdata,Specializationdata}

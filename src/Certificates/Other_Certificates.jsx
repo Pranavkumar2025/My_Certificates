@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Card_Sample from "./Card_Sample";
+import CardSample from "./Card_Sample";
 import { Otherdata } from "./Adata";
 
 const containerVariants = {
@@ -55,7 +55,7 @@ const Other_Certificates = () => {
         viewport={{ once: true }}
       >
         {Otherdata.map((val) => (
-          <Card_Sample
+          <CardSample
             key={val.id}
             abc_certificate={val.abc_certificate}
             img_src={val.img_src}

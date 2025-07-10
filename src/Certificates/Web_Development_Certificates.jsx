@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Card_Sample from "./Card_Sample";
+import CardSample from "./Card_Sample";
 import { BackWebdata, FrontWebdata } from "./Adata";
 
 const containerVariants = {
@@ -59,7 +59,7 @@ const Web_Development_Certificates = () => {
           viewport={{ once: true }}
         >
           {FrontWebdata.map((val) => (
-            <Card_Sample
+            <CardSample
               key={val.id}
               abc_certificate={val.abc_certificate}
               img_src={val.img_src}
@@ -83,7 +83,7 @@ const Web_Development_Certificates = () => {
           viewport={{ once: true }}
         >
           {BackWebdata.map((val) => (
-            <Card_Sample
+            <CardSample
               key={val.id}
               abc_certificate={val.abc_certificate}
               img_src={val.img_src}
